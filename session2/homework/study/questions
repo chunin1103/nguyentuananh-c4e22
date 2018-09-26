@@ -1,0 +1,33 @@
+#1  What is Boolean? Write down 3 different expression that results a Boolean type (i.e. 5 == 6)
+
+    Boolean is term which one can refer to as a kind of logic, function, data type, expression, or theory based on the work of George Boole that returns only two possible values (usually "true" and "false")
+    
+    Example for Boolean expression:
+        - 6 % 5 == 0: false
+        - 3 * 5 == 2: false
+        - 2 < 3: true
+
+2.	What is a flow chart? Draw flow chart for the following code snippet: (you can draw on a paper, take a picture of it)
+
+    A flowchart is a type of diagram that represents an algorithm, workflow or process. The flowchart shows the steps as boxes of various kinds, and their order by connecting the boxes with arrows
+
+    Flowchart picure can be found in the PNG file named flowchạt.PNG
+
+3.	What is nested conditionals? Write a piece of code that uses nested conditionals
+
+    We call it nested conditionals when a conditional is used or contained within another.
+    
+    e.g.
+
+    n = int(input("Insert your handsome score (out of 10)"))
+        
+    if n > 8.5:
+        print("easily get girl friend")
+
+    else:
+        if n > 6:
+            print("better hit the gym")
+        else:
+            print("try hard, try very hard, or hit the face surgery real hard")
+            print()
+            print("just kidding, you're a 10 anyways <3")
