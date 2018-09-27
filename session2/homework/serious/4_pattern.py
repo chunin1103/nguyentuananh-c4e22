@@ -22,14 +22,14 @@ for i in range(x):
 print()
 
 # e
-print("I want to conquer the world", end="")
+print("testing print()", end="")
 print()
-print("starting with Techkids ((its toilets first))")
+print("finished testing print()")
 
 # f
 n = int(input("enter number of rows (n): "))
 m = int(input("enter number of columns (m): "))
 
-for i in range(3):
-    print("* " * 5)
+for i in range(n):
+    print("* " * m)
 
