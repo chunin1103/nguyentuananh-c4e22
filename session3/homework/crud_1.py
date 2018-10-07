@@ -50,11 +50,21 @@ while True:
                 print("new item must contain both Lower and UPPER case")
         
             else:
-                items.insert((int(u_position) - 1), u_item)
+                clothes[pos-1] = new_item
                 break
-
-        print("Our items: ", end = "")
-        print(*items, sep = ", ")
+        # while True:
+        #     new_item = input("New item: ") 
+        #     if new_item.isdigit(): #handle exception
+        #         print("must not be a number")
+        #     elif new_item.isupper():
+        #         print("must not contain only uppercase letter")
+        #     elif new_item.islower():
+        #         print("must not contain only lowercase letter")
+        #     else:
+        #         clothes[pos-1] = new_item
+        #         break
+        # print("Our items: ", end = "")
+        # print(*items, sep = ", ")
 
     elif n.upper() == "D":
         while True:
