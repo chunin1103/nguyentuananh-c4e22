@@ -1,0 +1,7 @@
+>>> t = s.replace('abcxyz', 'dung gio'
+... )
+>>> print(s)
+toi rat abcxyz
+>>> print(t)
+toi rat dung gio
+>>>
