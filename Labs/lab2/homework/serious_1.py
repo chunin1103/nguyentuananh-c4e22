@@ -8,11 +8,6 @@ from bs4 import BeautifulSoup
 conn = urlopen(url)
 raw_data = conn.read()
 webpage_text = raw_data.decode("utf-8")
-
-f = open("songs.html", "wb")
-f.write(raw_data)
-f.close()
-
 soup = BeautifulSoup(webpage_text, "html.parser")
 
 section = soup.find("section", {'class':"section chart-grid"})
