@@ -1,0 +1,23 @@
+- Why should we use functions at all?
+  To bundle a set of instructions/ actions that you want to use repeatedly or you want to use that instructions/ actions in a sub-program and call it when needed   
+
+- How to define/declare a function?
+  Use the keyword def to declare the function and follow this up with the function name
+
+- How to call/use a function?
+  Step 1: You import your function if you store your function in other files
+  Step 2: Call the function by writting its name, followed up by parenthesis() and parameter variables (if needed) inside the parenthesis
+  Step 3: You eat pop corn and figure out what went wrong with your life
+  Step 3 (actually): You run the program and pray to God that it runs!
+
+- What is return, why and how do we use it?
+  The return statement causes your function to exit and hand back a value to its caller. The point of functions in general is to take in inputs and return something. The return statement is used when a function is ready to return a value to its caller
+- Do we have to use return in every function?
+  No, we don't have to
+- What are function arguments/parameters, why and how we use it?
+  A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters. Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function
+  We use them by include them when we declare the function and run the function
+- How to use function from a different file other than our currently working file?
+  We import the file containing the function then import the specific function, or simply using symbol *. Then call them
+  e.g. from <file name> import <function name> (or import *)
+  
