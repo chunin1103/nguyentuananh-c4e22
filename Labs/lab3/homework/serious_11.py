@@ -41,4 +41,11 @@ rec   = [140, 60, 100, 200]
 check = is_inside(point, rec)
 print(check)
 
+# test ex_12
+
+if check == is_inside([200, 120], [140, 60, 100, 200]):
+  print("It works")
+else:
+  print("bad, bad work")
+
 mainloop()
