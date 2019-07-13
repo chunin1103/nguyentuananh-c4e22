@@ -11,6 +11,7 @@ def about_me():
     return render_template("aboutme.html")
 
 @app.route("/school")
+
 def school():
     return '''<meta http-equiv="refresh" content="0; URL='http://techkids.vn'" />'''
 

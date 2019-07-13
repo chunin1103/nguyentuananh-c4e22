@@ -7,11 +7,12 @@ person = {
 
 for x in person:
     print(x)
-    print()
+# ra keys: name age locat
 
 for k in person.keys():
     print(k, person[k])
 print()
+# ra key + value
 
 for v in person.values():
     print(v)
