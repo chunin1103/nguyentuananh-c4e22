@@ -26,7 +26,7 @@ def getForecast(location_key):
     with urllib.request.urlopen(five_days_forecast_url) as five_days_forecast_url:
         data = json.loads(five_days_forecast_url.read().decode())
         # !!!!!!! Để xem data có những dữ liệu gì
-        # print(data)     
+        print(data)     
 
     for _ in data['DailyForecasts']:
         day_count += 1
@@ -44,6 +44,5 @@ def getForecast(location_key):
         print(_['Night']['LongPhrase'])
         print(_['Night']['Wind']['Speed']['Value'])
         print(_['Night']['Wind']['Direction']['English'])
-        
 
 getForecast(key)    
