@@ -23,3 +23,8 @@ git config --global user.name "Your Name"
 git commit -m "example" 
 
 git push
+
+// To pull file from existing repository:
+git stash
+
+git pull
